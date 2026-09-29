@@ -1,0 +1,12 @@
+__pycache__/
+*.py[oc]
+build/
+dist/
+*.egg-info
+.venv/
+.pytest_cache/
+.ruff_cache/
+# caches and raw data: never committed
+data/
+.env
+*.log
