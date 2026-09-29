@@ -7,6 +7,6 @@ dist/
 .pytest_cache/
 .ruff_cache/
 # caches and raw data: never committed
-data/
+/data/
 .env
 *.log
