@@ -10,3 +10,6 @@ dist/
 /data/
 .env
 *.log
+
+# derived from Yahoo Finance prices: not redistributed (re-created by `agentfund run`)
+results/run/equity.csv

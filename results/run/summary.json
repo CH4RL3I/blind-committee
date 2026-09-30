@@ -1,0 +1,222 @@
+{
+ "meta": {
+  "start": "2024-01-01",
+  "end": "2026-08-31",
+  "n_rebalances": 31,
+  "n_assets": 12,
+  "anonymised": true,
+  "cost_bps_per_side": 10.0,
+  "backend": "ollama:llama3.2",
+  "assumed_model_cutoff": "2023-12-31",
+  "runtime_seconds": 221,
+  "n_trading_days": 648,
+  "fund_stats": {
+   "full": {
+    "analyst_calls": 744,
+    "analyst_retries": 0,
+    "analyst_failures": 0,
+    "pm_calls": 31,
+    "pm_retries": 0,
+    "pm_fallbacks": 0
+   },
+   "no_fundamentals": {
+    "analyst_calls": 0,
+    "analyst_retries": 0,
+    "analyst_failures": 0,
+    "pm_calls": 31,
+    "pm_retries": 0,
+    "pm_fallbacks": 0
+   },
+   "no_technical": {
+    "analyst_calls": 0,
+    "analyst_retries": 0,
+    "analyst_failures": 0,
+    "pm_calls": 31,
+    "pm_retries": 0,
+    "pm_fallbacks": 0
+   },
+   "no_risk_manager": {
+    "analyst_calls": 0,
+    "analyst_retries": 0,
+    "analyst_failures": 0,
+    "pm_calls": 31,
+    "pm_retries": 0,
+    "pm_fallbacks": 0
+   },
+   "rule_based_pm": {
+    "analyst_calls": 0,
+    "analyst_retries": 0,
+    "analyst_failures": 0,
+    "pm_calls": 0,
+    "pm_retries": 0,
+    "pm_fallbacks": 0
+   }
+  }
+ },
+ "metrics": {
+  "equal_weight": {
+   "total_return": 0.7626929767958734,
+   "ann_return": 0.24704849160646303,
+   "ann_vol": 0.14376123399770319,
+   "sharpe": 1.6078385205338095,
+   "max_drawdown": -0.17708935525735026,
+   "avg_turnover_per_rebalance": 0.041438472159714884,
+   "total_cost_bps_of_equity": 25.69185273902324,
+   "n_rebalances": 31,
+   "sharpe_ci95": [
+    0.48114158937886936,
+    2.8819659142757037
+   ]
+  },
+  "spy_buy_hold": {
+   "total_return": 0.6136532645679253,
+   "ann_return": 0.20486945145553137,
+   "ann_vol": 0.15797713333500832,
+   "sharpe": 1.2585556299029665,
+   "max_drawdown": -0.187552341614579,
+   "avg_turnover_per_rebalance": 0.5,
+   "total_cost_bps_of_equity": 10.0,
+   "n_rebalances": 1,
+   "sharpe_ci95": [
+    0.2612890779614507,
+    2.4772529100556286
+   ],
+   "sharpe_diff_vs_equal_weight_ci95": [
+    -0.8070684997714251,
+    0.047350887969913213
+   ]
+  },
+  "momentum_top4": {
+   "total_return": 1.0273011707600377,
+   "ann_return": 0.3168659951323929,
+   "ann_vol": 0.25271624595882625,
+   "sharpe": 1.2148749201531075,
+   "max_drawdown": -0.295165936702113,
+   "avg_turnover_per_rebalance": 0.22043885290164522,
+   "total_cost_bps_of_equity": 136.67208879902003,
+   "n_rebalances": 31,
+   "sharpe_ci95": [
+    0.18996168781779363,
+    2.4186599078871787
+   ],
+   "sharpe_diff_vs_equal_weight_ci95": [
+    -0.9625560334307582,
+    0.0932161263966437
+   ]
+  },
+  "full": {
+   "total_return": 0.413227955058193,
+   "ann_return": 0.14421108396308235,
+   "ann_vol": 0.0904060042992582,
+   "sharpe": 1.5355931320857874,
+   "max_drawdown": -0.09212707484670168,
+   "avg_turnover_per_rebalance": 0.1319794993076902,
+   "total_cost_bps_of_equity": 81.82728957076792,
+   "n_rebalances": 31,
+   "sharpe_ci95": [
+    0.2958904059670349,
+    2.7619718540913443
+   ],
+   "sharpe_diff_vs_equal_weight_ci95": [
+    -0.8820720170508454,
+    0.6135800849942977
+   ]
+  },
+  "no_fundamentals": {
+   "total_return": 0.09118447441978716,
+   "ann_return": 0.034572570061150776,
+   "ann_vol": 0.07021234221909642,
+   "sharpe": 0.5191996237400038,
+   "max_drawdown": -0.08192408768630888,
+   "avg_turnover_per_rebalance": 0.1768341183348848,
+   "total_cost_bps_of_equity": 109.63715336762861,
+   "n_rebalances": 31,
+   "sharpe_ci95": [
+    -0.6451774607918912,
+    1.694644216802011
+   ],
+   "sharpe_diff_vs_equal_weight_ci95": [
+    -2.15778433724351,
+    -0.15142946110688885
+   ]
+  },
+  "no_technical": {
+   "total_return": 0.22410113292894973,
+   "ann_return": 0.08194194026954671,
+   "ann_vol": 0.0751960745023665,
+   "sharpe": 1.08497497164022,
+   "max_drawdown": -0.0852977188609525,
+   "avg_turnover_per_rebalance": 0.09076869870246182,
+   "total_cost_bps_of_equity": 56.276593195526324,
+   "n_rebalances": 31,
+   "sharpe_ci95": [
+    0.02686329929878783,
+    2.1534513790400474
+   ],
+   "sharpe_diff_vs_equal_weight_ci95": [
+    -1.262221250406158,
+    0.08280392090449858
+   ]
+  },
+  "no_risk_manager": {
+   "total_return": 0.42715036646376303,
+   "ann_return": 0.1485883561350283,
+   "ann_vol": 0.09174873055874938,
+   "sharpe": 1.5560811806468442,
+   "max_drawdown": -0.09212707484670246,
+   "avg_turnover_per_rebalance": 0.13586938143297164,
+   "total_cost_bps_of_equity": 84.23901648844242,
+   "n_rebalances": 31,
+   "sharpe_ci95": [
+    0.3067181251880551,
+    2.770050357497497
+   ],
+   "sharpe_diff_vs_equal_weight_ci95": [
+    -0.8802497774006649,
+    0.628409255355355
+   ]
+  },
+  "rule_based_pm": {
+   "total_return": 0.6000849844747622,
+   "ann_return": 0.2009133341499929,
+   "ann_vol": 0.1350727598992463,
+   "sharpe": 1.4233087092205414,
+   "max_drawdown": -0.13753862782205728,
+   "avg_turnover_per_rebalance": 0.13534124634527403,
+   "total_cost_bps_of_equity": 83.91157273406989,
+   "n_rebalances": 31,
+   "sharpe_ci95": [
+    0.24843333878746932,
+    2.6028189151552215
+   ],
+   "sharpe_diff_vs_equal_weight_ci95": [
+    -0.9400948686386031,
+    0.46153572179825403
+   ]
+  }
+ },
+ "stance_hits": {
+  "fundamentals": {
+   "n_views": 372,
+   "n_non_neutral": 263,
+   "share_bullish": 0.4274193548387097,
+   "share_bearish": 0.27956989247311825,
+   "hit_rate_vs_universe": 0.5171102661596958,
+   "ci95": [
+    0.45690574440845794,
+    0.5768221301058607
+   ]
+  },
+  "technical": {
+   "n_views": 372,
+   "n_non_neutral": 175,
+   "share_bullish": 0.44086021505376344,
+   "share_bearish": 0.02956989247311828,
+   "hit_rate_vs_universe": 0.4114285714285714,
+   "ci95": [
+    0.3411838956677442,
+    0.48547835740983947
+   ]
+  }
+ }
+}
