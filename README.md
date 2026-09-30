@@ -156,8 +156,10 @@ What the numbers say, and do not say:
   anonymised packets could still carry a fingerprint (for example a distinctive growth pattern).
 - The fundamentals analyst sees no valuation multiples; XBRL tag coverage varies by company
   (banks lack some lines), and missing values are shown as null.
-- Universe change worth knowing: XOM was replaced by CVX because ExxonMobil's EDGAR company facts
-  currently start in 2026 (holding-company reorganisation), so there is no point-in-time history.
+- Universe change worth knowing: XOM was replaced by CVX. After ExxonMobil's 2026 holding-company
+  reorganisation, SEC's ticker map points XOM to the new filer (ExxonMobil Holdings Corp, CIK 2115436),
+  whose XBRL facts start in August 2026. The pre-2026 history still sits under the old Exxon Mobil Corp
+  filer (CIK 34088); stitching the two is a possible fix, not done here.
 - Prices come from Yahoo Finance via `yfinance` (adjusted closes). Stooq was the first choice but
   now serves a JavaScript proof-of-work page to scripted clients instead of CSV.
 - Stateless drawdown rules and a 10 bps cost are simplifications; no taxes, borrow or slippage.
