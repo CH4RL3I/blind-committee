@@ -1,6 +1,6 @@
 # blind-committee
 
-[![ci](https://github.com/CH4RL3I/blind-committee/actions/workflows/ci.yml/badge.svg)](https://github.com/CH4RL3I/blind-committee/actions/workflows/ci.yml)
+[![ci](https://github.com/CH4RL3I/blind-committee/actions/workflows/ci.yml/badge.svg)](https://github.com/CH4RL3I/blind-committee/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.11%2B-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 A small multi-agent "hedge fund" (Python package `agentfund`): LLM analysts who see anonymised
 evidence, a portfolio manager who weighs their views, and a risk manager written in plain code.
